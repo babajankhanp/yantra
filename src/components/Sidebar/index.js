@@ -16,7 +16,6 @@ const Sidebar = ({isOpen, toggle}) => {
         <SidebarMenu>
             <SidebarLink activeClass="active"  to='Workshops' spy={true} smooth={true} duration={1000}>Workshops</SidebarLink>
             <SidebarLink activeClass="active"  to='Events' spy={true} smooth={true} duration={1000}>Events</SidebarLink>
-            <SidebarLink activeClass="active"  to='scheduleId' spy={true} smooth={true} duration={1000}>Schedule</SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
         <SidebarRoute activeClass="active"  to='Workshops' spy={true} smooth={true} duration={1000}>Register Now!</SidebarRoute>

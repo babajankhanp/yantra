@@ -5,7 +5,7 @@ import Hero from "./components/Hero";
 import Footer from "./components/Footer";
 import Workshop from "./components/Workshop";
 import Sliderimages from "./components/Sliderimages";
-import Schedule from "./components/Schedule";
+
 
 
 function App() {
@@ -19,7 +19,6 @@ function App() {
       <Sliderimages />
       <Workshop />
       <Events />
-      <Schedule />
       <Footer />
     </BrowserRouter>
   );
